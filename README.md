@@ -66,7 +66,7 @@ This only measures whether the answer is **present** in what comes back, not whe
 ## Read this before quoting the numbers
 
 - **Runs vary.** L0 is the same thing in both runs and scored 59.4% in the first and 65.0% in the second. Lite's results and which pages load both change between runs, so treat any single number as roughly ±3 points.
-- **92.0% means reading about 37,000 tokens.** Picking the best 900 tokens with BM25 drops it to 75.6%. Closing that gap takes a ranking model; our [deep endpoint](https://github.com/Keirolabs-API/deep-endpoint-benchmark-results) does that.
+- **92.0% means reading about 37,000 tokens.** Picking the best 900 tokens with BM25 drops it to 75.6%. Closing that gap takes a ranking model; our [deep endpoint](https://github.com/Keirolabs-API/deep-search-benchmark) does that.
 - **Latency is unoptimized.** In the recipe the keyword call and the Wikipedia search start after the first Lite call returns. Running all three at once would cut about 2 seconds.
 
 ## Run it
