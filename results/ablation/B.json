@@ -1,0 +1,3843 @@
+{
+ "summary": {
+  "n": 77,
+  "errors": 0,
+  "seed": 42,
+  "offset": 1000,
+  "crawl_k": 8,
+  "budget": 1000,
+  "filter": true,
+  "variant": false,
+  "wiki": false,
+  "levels": {
+   "L0": {
+    "raw": 8,
+    "judged": 8,
+    "judged_pct": 10.4,
+    "avg_tokens": 558
+   },
+   "L1": {
+    "raw": 17,
+    "judged": 19,
+    "judged_pct": 24.7,
+    "avg_tokens": 12958
+   },
+   "L2": {
+    "raw": 14,
+    "judged": 16,
+    "judged_pct": 20.8,
+    "avg_tokens": 896
+   }
+  },
+  "answer_in_top1": 11,
+  "answer_in_top3": 15,
+  "latency_ms": {
+   "lite": {
+    "p50": 1727,
+    "p90": 2997
+   },
+   "crawl": {
+    "p50": 5932,
+    "p90": 9079
+   },
+   "pick": {
+    "p50": 7,
+    "p90": 25
+   },
+   "total": {
+    "p50": 8144,
+    "p90": 11254
+   }
+  },
+  "crawl_tiers": {
+   "http": 370,
+   "blocked": 111,
+   "browser": 62,
+   "timeout": 17
+  }
+ },
+ "records": [
+  {
+   "q": "Who holds the record for the fastest marathon dressed as an elf (male), with a time of 2 hours, 58 minutes, and 16 seconds, achieved at the 2017 Virgin Money London Marathon in London, UK, on April 23, 2017?",
+   "gold": "Ashley Payne",
+   "results": 10,
+   "urls": [
+    "https://www.facebook.com/RunningStateUSA/posts/lee-baynton-ran-the-london-marathon-and-became-a-guinness-world-record-holder-fa/122144359580191753/",
+    "https://www.ineos159challenge.com/news/eliud-kipchoge-wins-the-virgin-money-london-marathon",
+    "https://www.bbc.co.uk/sounds/play/p0hpj3xt",
+    "https://www.londonmarathonevents.co.uk/london-marathon/guinness-world-records",
+    "https://worldathletics.org/competitions/world-athletics-label-road-races/news/sawe-two-hour-assefa-world-record-london-marathon",
+    "https://www.vercalendario.info/en/what/guinness-records-for-fastest_marathon_dressed_as_an_elf_male.html",
+    "https://www.facebook.com/LondonMarathon/videos/eliud-kipchoge-wins-the-2019-virgin-money-london-marathon/186801636599658/",
+    "https://www.olympics.com/en/news/london-marathon-2026-guinness-world-records-attempts",
+    "https://www.guinnessworldrecords.com/world-records/fastest-marathon-dressed-as-a-bottle-male",
+    "https://www.virgin.com/about-virgin/latest/highlights-of-the-2021-virgin-money-london-marathon"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 7557,
+    "crawl": 2840,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 558,
+    "L1": 5326,
+    "L2": 982
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 4
+  },
+  {
+   "q": "What is the name of the Welsh nurse who specializes in palliative care and was elected Fellow of the Learned Society of Wales in 2011?",
+   "gold": "Mari Lloyd-Williams",
+   "results": 10,
+   "urls": [
+    "https://www.cardiff.ac.uk/about/honours-and-awards/learned-society-of-wales",
+    "https://www.learnedsociety.wales/crucible/helen-willson/",
+    "https://sbuhb.nhs.wales/news/swansea-bay-health-news/use-of-welsh-language-speaks-volumes-for-patient-care/",
+    "https://palliativecarecommission.uk/commissioners",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2726809/",
+    "https://www.facebook.com/empathhealth/posts/during-womens-history-month-were-reflecting-on-the-work-of-dame-cicely-saunders-/1405133214989815/",
+    "https://www.rcn.org.uk/wales/Get-Involved/Awards/Award-winners-2025",
+    "https://www.elainecanning.co.uk/newsevents/learned-society-of-wales-elaine-canning",
+    "https://en.wikipedia.org/wiki/Ilora_Finlay,_Baroness_Finlay_of_Llandaff",
+    "https://www.facebook.com/cardiffandvaleuhb/posts/meet-rhian-a-clinical-nurse-specialist-working-in-the-palliative-care-team-at-un/1404903698327992/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 7360,
+    "crawl": 1476,
+    "pick": 6
+   },
+   "tokens": {
+    "L0": 527,
+    "L1": 12813,
+    "L2": 982
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "Who were the runners-up for the 2000 doubles competition for the WTA Finals?",
+   "gold": "Nicole Arendt and Manon Bollegraf.",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/WTA_Finals",
+    "https://www.facebook.com/fortylovestudio/videos/for-50-years-the-world-rankings-in-tennis-were-just-a-columnists-opinionheres-ho/1637457881498759/",
+    "https://www.wtatennis.com/rankings-explained",
+    "https://www.facebook.com/groups/socalfilipinos/posts/2278841342958083/",
+    "https://thetennissite.com/wta-finals-explained/",
+    "https://www.reddit.com/r/tennis/comments/1glyxnj/the_wta_race_is_the_wta_race_kasatkina_criticises/",
+    "https://www.instagram.com/popular/wta-finals/",
+    "http://tt.tennis-warehouse.com/index.php?threads/martina-navratilova-won-21-wta-finals-8-singles-13-doubles.712946/",
+    "https://www.bbc.com/sport/tennis/articles/ced6vn4nwyno",
+    "https://www.usopen.org/en_US/visit/history/wschamps.html"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 7362,
+    "crawl": 1787,
+    "pick": 6
+   },
+   "tokens": {
+    "L0": 542,
+    "L1": 13332,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the length of Mirza Hameedullah Beg's tenure as the Chief Justice of India in years and days?",
+   "gold": "1 year and 24 days",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Mirza_Hameedullah_Beg",
+    "https://www.scobserver.in/judges/m-h-beg/",
+    "https://www.sci.gov.in/judge/justice-m-hameedullah-beg/",
+    "https://en.wikipedia.org/wiki/List_of_chief_justices_of_India",
+    "https://www.facebook.com/indialegalmedia/posts/the-judge-who-became-a-controversial-chapter-in-indias-judicial-historyjustice-m/1683681283764517/",
+    "https://www.lawgratis.com/blog-detail/meet-justice-m-hameedullah-beg-and-his-notable-judicial-decisions",
+    "https://testbook.com/question-answer/in-which-year-was-justice-m-hameedullah-beg-appoi--62abdeb94714ec772107b558",
+    "https://x.com/WeIndianMuslims/status/1400777160151867393",
+    "https://www.facebook.com/cnbctv18india/posts/it-has-been-a-pivotal-year-for-indias-supreme-court-which-marked-its-diamond-jub/1350992560394839/",
+    "https://www.scobserver.in/journal/average-tenure-of-cjis-past-present-and-future-what-does-the-data-tell-us/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 7173,
+    "crawl": 800,
+    "pick": 5
+   },
+   "tokens": {
+    "L0": 533,
+    "L1": 11443,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "Who was the first recipient of the Nebula Award for Best Game Writing?",
+   "gold": "Charlie Brooker",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Nebula_Award_for_Best_Game_Writing",
+    "https://nebulas.sfwa.org/award/best-game-writing/",
+    "https://nebulas.sfwa.org/about-the-nebulas/",
+    "https://en.wikipedia.org/wiki/Nebula_Award",
+    "https://www.reddit.com/r/Games/comments/gtuq5d/science_fiction_and_fantasy_writers_of_america/",
+    "https://nebulas.sfwa.org/introducing-sfwas-61st-annual-nebula-award-winners/",
+    "https://www.facebook.com/mary.a.mohanraj/videos/benjamin-rosenbaum-presents-the-award-for-best-game-writing-nebulaconference2026/27327500553606356/",
+    "https://www.sfwriter.com/nebwin.htm",
+    "https://www.geekwire.com/2018/first-ever-nebula-award-game-writers-approved-professional-science-fiction-writers-organization/",
+    "https://www.facebook.com/groups/FantasyFaction/posts/3996413177334513/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1785,
+    "crawl": 3641,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 565,
+    "L1": 15080,
+    "L2": 900
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": 0
+  },
+  {
+   "q": "What is the character name and surname of the Major whose son is held captive by the Russians in Season 1, Episode 2 of the television series Airwolf?",
+   "gold": "Sam Roper",
+   "results": 10,
+   "urls": [
+    "https://www.imdb.com/title/tt0086662/",
+    "https://en.wikipedia.org/wiki/List_of_Airwolf_episodes",
+    "https://airwolf.fandom.com/wiki/Daddy%27s_Gone_A_Hunt%27n_(episode)",
+    "https://www.youtube.com/watch?v=1MBi26EbAWk",
+    "https://spyguysandgals.com/sgShowChar.aspx?id=1040",
+    "https://www.facebook.com/jackcarrusa/videos/airwolf/740080175453494/",
+    "https://www.facebook.com/getgreattv/posts/geraint-wyn-davies-played-co-pilot-mike-rivers-in-airwolfs-final-season-in-1987/1145291538956708/",
+    "https://airwolfthemes.com/airwolf-season-1-episode-04-proof-through-the-night.html",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Series/Airwolf",
+    "https://www.classicfilmtvcafe.com/2010/04/airwolf-whirls-into-action.html"
+   ],
+   "tiers": [
+    "browser",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 2484,
+    "crawl": 3937,
+    "pick": 20
+   },
+   "tokens": {
+    "L0": 520,
+    "L1": 39678,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 1
+  },
+  {
+   "q": "Who directed S1E8 of Abstract: The Art of Design?",
+   "gold": "Sarina Roma",
+   "results": 10,
+   "urls": [
+    "https://www.imdb.com/title/tt6508910/",
+    "https://www.netflix.com/title/80057883",
+    "https://www.youtube.com/watch?v=q_k8fVNzbGU",
+    "https://www.youtube.com/watch?v=LCfBYE97rFk",
+    "https://www.rottentomatoes.com/tv/abstract_the_art_of_design/s01/e08",
+    "https://godfreydadich.com/work/abstract",
+    "https://en.wikipedia.org/wiki/Abstract_%E2%80%93_The_Art_of_Design",
+    "https://www.youtube.com/playlist?list=PLuctemCzX-m4svPpBctWUp0oG__Lhglq9",
+    "https://www.imdb.com/title/tt6333098/",
+    "https://www.broadstreetreview.com/articles/scott-dadichs-abstract-the-art-of-design-is-streaming-on-netflix"
+   ],
+   "tiers": [
+    "browser",
+    "http",
+    "http",
+    "browser",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 2080,
+    "crawl": 3897,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 557,
+    "L1": 5904,
+    "L2": 875
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "What was the score of Game 2 of the '07 World Series in the third inning?",
+   "gold": "Colorado 1 - 0 Boston",
+   "results": 10,
+   "urls": [
+    "https://www.sportsnet.ca/mlb/article/brewers-score-eight-runs-during-historic-two-out-rally-in-game-3-of-world-series/",
+    "https://www.reddit.com/r/sports/comments/1xghfm6/the_brewers_scored_8_runs_in_the_5th_inning_and/",
+    "https://en.wikipedia.org/wiki/2007_World_Series",
+    "https://www.facebook.com/fenwayparkdiaries/posts/the-red-sox-memorable-moments-on-this-day-october-27-2007-2007-world-series-game/1608109264448379/",
+    "https://www.mlb.com/news/brewers-win-world-series-game-3-historic-inning",
+    "https://www.facebook.com/MLBNetwork/videos/it-was-just-good-at-bat-after-good-at-bat-guys-staying-within-themselves-doing-w/2659295407840913/",
+    "https://www.baseball-reference.com/postseason/2007_WS.shtml",
+    "https://www.youtube.com/watch?v=FSTpfZVhaYg",
+    "https://www.espn.com/mlb/story/_/id/50240960/world-series-game-3-brewers-rays-live-updates-takeaways",
+    "https://abc7news.com/post/2026-mlb-world-series-game-5-tampa-bay-rays-stun-milwaukee-brewers-2-run-rally-12th-inning-4-3-win/19988905/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 2570,
+    "crawl": 2446,
+    "pick": 11
+   },
+   "tokens": {
+    "L0": 546,
+    "L1": 16988,
+    "L2": 840
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the full name of the individual who was awarded the Spearman Medal in 1992?",
+   "gold": "Usha Claire Goswami",
+   "results": 10,
+   "urls": [
+    "https://www.bps.org.uk/psychologist/spearman-medal-retired",
+    "https://en.wikipedia.org/wiki/Spearman_Medal",
+    "https://www.gold.ac.uk/news/michael-banissy-spearman-medal-2016/",
+    "https://www.c-span.org/program/white-house-event/presidential-medal-of-freedom-ceremony/27651",
+    "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/british-military-gallantry-medals/",
+    "https://www.historians.org/perspectives-article/notable-achievements-by-members-march-1992/",
+    "https://www.scribd.com/document/865104643/AI-SL-Pearsons-Spearmans-Regression-Markscheme",
+    "https://laetare.nd.edu/recipients/",
+    "https://www.facebook.com/paralympics/videos/-throwback-medal-moment-sir-ludwig-guttmann-the-founder-of-the-paralympic-moveme/1913766385927103/",
+    "https://beenhere.org/2017/09/03/doug-spearman/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 2703,
+    "crawl": 2791,
+    "pick": 19
+   },
+   "tokens": {
+    "L0": 506,
+    "L1": 36244,
+    "L2": 966
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "Which artist won the Maine Organic Farmers and Gardeners Association's art contest to be featured on the 2014 Common Ground Country Fair poster?",
+   "gold": "Kate Seaver",
+   "results": 10,
+   "urls": [
+    "https://mymodernmet.com/famous-artists/",
+    "https://en.wikipedia.org/wiki/Artist",
+    "https://www.theartpost.com/artists/us/deland-fl",
+    "https://artlist.io/",
+    "https://www.tate.org.uk/art/artists/a-z",
+    "https://www.houzz.com/professionals/artist-and-artisan/deland-fl-us-probr0-bo~t_11801~r_4152890?msockid=3fc6d5d7458e678d2216cdd744d9665b",
+    "https://www.merriam-webster.com/dictionary/artist",
+    "https://www.artsy.net/artists",
+    "https://artmag.org/top-100-artists/",
+    "https://artsandculture.google.com/category/artist"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 2447,
+    "crawl": 8099,
+    "pick": 5
+   },
+   "tokens": {
+    "L0": 402,
+    "L1": 8477,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the maximum length of the Aegean Sea in miles?",
+   "gold": "430 mi",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Aegean_Sea",
+    "https://www.britannica.com/summary/Aegean-Sea",
+    "https://softschools.com/facts/seas/aegean_sea_facts/3454/",
+    "https://www.worldatlas.com/articles/which-countries-have-a-coastline-on-the-aegean-sea.html",
+    "https://www.reddit.com/r/MapPorn/comments/184aany/territorial_claim_of_the_aegean_sea_between/",
+    "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea/",
+    "https://opil.ouplaw.com/display/10.1093/law:epil/9780199231690/law-9780199231690-e1240?p=emailAMnhLrPOVl/Ls&amp;d=/10.1093/law:epil/9780199231690/law-9780199231690-e1240&amp;print",
+    "https://www.facebook.com/GreeceHighDefinition/posts/the-issue-of-extending-greeces-territorial-waters-to-12-nautical-miles-remains-o/1662025638710580/",
+    "https://byjus.com/current-affairs/aegean-sea/",
+    "https://www.quora.com/What-is-special-about-the-Aegean-Sea"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "timeout",
+    "http"
+   ],
+   "ms": {
+    "lite": 2434,
+    "crawl": 9009,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 537,
+    "L1": 18873,
+    "L2": 900
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "In 2015, in what exhibition was Henry Ossawa Tanner's work included?",
+   "gold": "We Speak: Black Artists in Philadelphia, 1920s-1970s",
+   "results": 10,
+   "urls": [
+    "https://artbma.org/press-release/influence-of-henry-ossawa-tanner-on-america-explored-in-new-exhibition/",
+    "https://americanart.si.edu/artist/henry-ossawa-tanner-4742",
+    "https://www.brooksmuseum.org/exhibitions/henry-ossawa-tanner-the-thankful-poor",
+    "https://www.tfaoi.org/aa/6aa/6aa360.htm",
+    "https://michaelrosenfeld.com/artists/henry-ossawa-tanner",
+    "https://www.facebook.com/SpeedArtMuseum/videos/henry-ossawa-tanner-remains-one-of-the-greatest-artists-of-his-generation-with-a/194481516178266/",
+    "https://www.philamuseum.org/exhibitions/henry-ossawa-tanner",
+    "https://www.art-by-mia.com/aoc/2018/6/20/henry-ossawa-tanner",
+    "https://www.whitehousehistory.org/diversity-in-white-house-art-henry-ossawa-tanner",
+    "https://dma.org/art/exhibitions/focus-henry-ossawa-tanner"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 2161,
+    "crawl": 4793,
+    "pick": 6
+   },
+   "tokens": {
+    "L0": 536,
+    "L1": 15374,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "For approximately how many dollars did the Society of Illustrators purchase 128 East 63rd Street, New York, NY, in 1939?",
+   "gold": "$33,000",
+   "results": 10,
+   "urls": [
+    "https://societyillustrators.org/about/history-of-128-east-63rd-street/",
+    "https://societyillustrators.org/anniversary-fund/",
+    "https://societyillustrators.org/",
+    "https://www.facebook.com/iknowaguynyc/posts/my-most-graphic-post-yet-but-theres-no-need-to-avert-your-eyes-i-want-to-tell-yo/1106233558169049/",
+    "https://en.wikipedia.org/wiki/Society_of_Illustrators",
+    "https://gothamjoe.com/museum-illustration",
+    "https://www.facebook.com/UrbanistAriel/videos/even-as-someone-who-has-lived-new-york-their-entire-life-i-still-find-going-to-m/2387793418232038/",
+    "https://societyillustrators.org/plan-your-visit/",
+    "https://sideways.nyc/discover/5SuPQCkpjVgBaSHxyGuNIe/society-illustrators",
+    "https://www.yelp.com/biz/society-of-illustrators-new-york-3"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 2286,
+    "crawl": 3203,
+    "pick": 4
+   },
+   "tokens": {
+    "L0": 509,
+    "L1": 10824,
+    "L2": 900
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "Who is known to be the longest-serving premier in the history of the USSR?",
+   "gold": "Alexei Kosygin",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Soviet_Union",
+    "https://www.youtube.com/watch?v=G82MEgUUsc4",
+    "https://www.rbth.com/history/331732-soviet-union-history",
+    "https://www.thoughtco.com/what-was-the-ussr-1434459",
+    "https://www.history.com/articles/history-of-the-soviet-union",
+    "https://www.investopedia.com/angela-merkel-7559368",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://soviet-union.com/ussr",
+    "https://gamma.app/",
+    "https://www.perplexity.ai/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 2024,
+    "crawl": 4605,
+    "pick": 32
+   },
+   "tokens": {
+    "L0": 537,
+    "L1": 37735,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the NASA Space Science Data Coordinated Archive (NSSDCA) ID of the spacecraft Foton-9?",
+   "gold": "1994-033A",
+   "results": 10,
+   "urls": [
+    "https://nssdc.gsfc.nasa.gov/",
+    "https://huggingface.co/datasets/Siyuc/self-evolution-explore/viewer",
+    "https://www.wikidata.org/wiki/Property:P8913",
+    "https://zenodo.org/records/7866626",
+    "https://www.youtube.com/watch?v=OFoWo_zCDUo",
+    "https://openfront.io/",
+    "https://www.weforum.org/stories/all/space-water-ice-moon-south-pole/",
+    "https://nasayournameinlandsat.com/",
+    "https://nasa.fandom.com/wiki/Lunar_Prospector",
+    "https://www.pinterest.com/pin/nssdca-master-catalog--446349013080967400/"
+   ],
+   "tiers": [
+    "browser",
+    "http",
+    "http",
+    "blocked",
+    "browser",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1666,
+    "crawl": 8513,
+    "pick": 8
+   },
+   "tokens": {
+    "L0": 646,
+    "L1": 17512,
+    "L2": 1000
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In which month and year was it reported that the German Defense Ministry planned to replace its Tornado aircraft with a purchase of 30 Boeing F/A-18E/F Super Hornets, 15 EA-18G Growlers, and 55 Eurofighter Typhoons?",
+   "gold": "April 2020",
+   "results": 10,
+   "urls": [
+    "https://www.science.org/doi/10.1126/science.1114655",
+    "https://www.armyrecognition.com/military-products/air/fighter/f-a-18-super-hornet",
+    "https://www.aerotime.aero/articles/boeing-super-hornet-origin-purpose-and-performance",
+    "https://translate.google.com/",
+    "https://aerocorner.com/aircraft/f-18-super-hornet/",
+    "https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler",
+    "https://diep.io/",
+    "https://yandex.com/maps/",
+    "https://web.whatsapp.com/",
+    "https://translate.yandex.com/"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 2009,
+    "crawl": 5357,
+    "pick": 8
+   },
+   "tokens": {
+    "L0": 399,
+    "L1": 9649,
+    "L2": 879
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What specific type of joints are in a giraffe's neck vertebrae?",
+   "gold": "Ball-and-socket joints",
+   "results": 10,
+   "urls": [
+    "https://www.allthingsnature.org/what-is-a-giraffe.htm",
+    "https://www.science.org/doi/10.1126/science.aay9189",
+    "https://gauthmath.blog/how-many-vertebrae-in-a-giraffes-neck",
+    "https://web.whatsapp.com/",
+    "https://www.ambimed.ch/the-amount-of-joints-are-in-the-human-body/",
+    "https://www.realbroadbandsolutions.co.za/the-number-of-joints-are-in-the-body",
+    "https://translate.google.com/",
+    "https://www.innerbody.com/image/skelfov.html",
+    "https://tedsby.com/explore/giraffe-teddy-bear",
+    "https://powerpoint.cloud.microsoft/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "blocked",
+    "browser",
+    "blocked",
+    "http",
+    "browser",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1667,
+    "crawl": 8999,
+    "pick": 5
+   },
+   "tokens": {
+    "L0": 481,
+    "L1": 10203,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What actress played Raynelle (Seasons 3-5) in the TV show \"In the House\"?",
+   "gold": "Gabrielle Carmouche",
+   "results": 10,
+   "urls": [
+    "https://www.youtube.com/watch?v=gWVYoZrW6As",
+    "https://www.tiktok.com/discover/tiffany-raynelle-from-in-the-house",
+    "https://www.hdfilmcehennemi.nl/in-the-house-2012/",
+    "https://muzaro.net/34490-daniela-hallow-in-the-house-polnaya-versiya.html",
+    "https://kinogo-films.pro/1568-v-dome.html",
+    "https://www.whats-on-netflix.com/news/the-woman-in-the-house-season-2-why-it-wont-be-return-for-another-season-on-netflix/",
+    "https://www.justwatch.com/us/tv-show/cory-in-the-house",
+    "https://www.pogdesign.co.uk/cat/The-Woman-in-the-House-Across-the-Street-from-the-Girl-in-the-Window-summary",
+    "https://m4ufree.in/movies/in-the-house-2012.odywi",
+    "https://screenrant.com/best-shows-like-the-woman-in-the-house-across-the-street-from-the-girl-in-the-window/"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "timeout",
+    "http",
+    "browser",
+    "browser",
+    "timeout",
+    "http"
+   ],
+   "ms": {
+    "lite": 1719,
+    "crawl": 9026,
+    "pick": 15
+   },
+   "tokens": {
+    "L0": 644,
+    "L1": 7133,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the name of the character played by John William Carson in the episode \"The Queen of the Orange Bowl\" in the anthology series \"The United States Steel Hour\" in 1960?",
+   "gold": "Kenneth Rausch",
+   "results": 0,
+   "urls": [],
+   "tiers": [],
+   "ms": {
+    "lite": 1618,
+    "crawl": 0,
+    "pick": 0
+   },
+   "tokens": {
+    "L0": 0,
+    "L1": 0,
+    "L2": 0
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In what year did Anne Golden become the first woman to chair the American Heart Association board of directors?",
+   "gold": "1991",
+   "results": 10,
+   "urls": [
+    "https://professional.heart.org/en/guidelines-and-statements/prevent-calculator",
+    "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000558",
+    "https://bempedoic.ru/prevent",
+    "https://translate.google.com/",
+    "https://quizlet.com/login",
+    "https://www.linkedin.com/posts/jennifer-damico-668906a_it-was-an-absolute-honor-to-chair-theamerican-activity-7348758686762192896-ci_Q",
+    "https://platform.deepseek.com/",
+    "https://www.youtube.com/watch?v=djV11Xbc914",
+    "https://translate.yandex.com/",
+    "https://allthatsinteresting.com/mary-anne-macleod-trump"
+   ],
+   "tiers": [
+    "timeout",
+    "blocked",
+    "browser",
+    "blocked",
+    "http",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 1729,
+    "crawl": 9084,
+    "pick": 4
+   },
+   "tokens": {
+    "L0": 570,
+    "L1": 5108,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What were the first and last names of the Cunningham Dance Foundation's first executive director?",
+   "gold": "Art Becofsky",
+   "results": 10,
+   "urls": [
+    "https://www.nytimes.com/2009/06/10/arts/dance/10merc.html",
+    "https://www.alastairmacaulay.com/all-essays/alternate-worlds-moving-on-two-stages-performing-for-one-audience",
+    "https://www.walkerart.org/reader/cunningham-archive/",
+    "https://www.barbican.org.uk/not-a-moment-too-soon-a-merce-cunningham-centennial-event",
+    "https://octaviancostache.wordpress.com/2011/03/20/a-moving-museum-the-merce-cunningham-collection/",
+    "https://web.whatsapp.com/",
+    "https://www.dancereflections.vancleefarpels.cn/en/fault-lines-coastline-merce-cunninghams-beach-birds",
+    "https://www.youtube.com/watch?v=k5gPYO_Nid4",
+    "https://www.timesunion.com/living/article/Beauty-of-Cunningham-thrills-14988143.php",
+    "https://divascans.org/series/comic/one-night-isn-t-enough-for-the-executive-director"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "http",
+    "blocked",
+    "browser"
+   ],
+   "ms": {
+    "lite": 2211,
+    "crawl": 5916,
+    "pick": 17
+   },
+   "tokens": {
+    "L0": 648,
+    "L1": 14237,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What year was the municipality of San Carlos, Antioquia, Colombia, founded?",
+   "gold": "1786",
+   "results": 10,
+   "urls": [
+    "https://www.emis.com/php/company-profile/CO/Municipality_of_San_Carlos_-_Antioquia_en_3046299.html",
+    "https://www.sancarlos-antioquia.gov.co/",
+    "https://123city.co/city/san-carlos-antioquia-co",
+    "https://www.google.com/maps/place/",
+    "https://www.youtube.com/watch?v=1eRbdHDw_Sc",
+    "https://en.wikipedia.org/wiki/Antioquia_Department",
+    "https://huggingface.co/datasets/kshitijthakkar/smoltrace-results-20251030_131759/viewer/default/train?p=2",
+    "https://www.ssoar.info/ssoar/handle/document/63761?show=full",
+    "https://web.whatsapp.com/",
+    "https://www.unilim.fr/trahs/365"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 1680,
+    "crawl": 4834,
+    "pick": 43
+   },
+   "tokens": {
+    "L0": 588,
+    "L1": 22653,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the name of New York's National Academy of Design in 1825?",
+   "gold": "The New York Drawing Association",
+   "results": 10,
+   "urls": [
+    "https://www.metmuseum.org/essays/thomas-cole-1801-1848",
+    "https://www.newyorker.com/magazine/2000/10/02/at-the-museums-how-new-york-got-full-of-itself",
+    "https://grokipedia.com/page/the_flower_girl_ingham",
+    "https://en.wikipedia.org/wiki/Ten_American_Painters",
+    "https://arthistorynewsreport.blogspot.com/2021/07/for-america-paintings-from-national.html",
+    "https://mansionmusings.wordpress.com/2017/06/10/the-bartows-and-art-a-lost-portrait-famous-relatives-and-artistic-neighbors/",
+    "https://www.nytimes.com/2011/09/30/arts/design/loren-munk-location-location-locationmapping-the-new-york-art-world.html",
+    "https://hyperallergic.com/national-academy-of-design-presents-sites-of-impermanence/",
+    "https://web.whatsapp.com/",
+    "https://daytoninmanhattan.blogspot.com/2012/05/lost-1865-national-academy-of-design.html"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 1617,
+    "crawl": 4397,
+    "pick": 13
+   },
+   "tokens": {
+    "L0": 679,
+    "L1": 14731,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the population of the town of Lesbury in Northumberland, England in the 2011 census?",
+   "gold": "1007",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Lesbury",
+    "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Planning-and-Building/planning%20policy/Studies%20and%20Evidence%20Reports/Housing%20Studies/9.%20Local%20housing%20needs%20assessments/Lesbury-HNS-Feb-2018.pdf",
+    "https://www.ilivehere.co.uk/statistics-lesbury-northumberland-21911.html",
+    "https://www.unitedkingdommaps.com/northumberland/lesbury",
+    "https://www.liveable.co.uk/place/lesbury",
+    "https://www.townandvillageguide.com/Northumberland/Lesbury.html",
+    "https://www.city-town.uk/civil-parish-lesbury-northumberland.html",
+    "https://www.townscountiespostcodes.co.uk/towns-in-england/northumberland/lesbury/",
+    "https://www.ukcitymap.com/lesbury-northumberland-england-satellite-view.html",
+    "https://www.citypopulation.de/en/uk/"
+   ],
+   "tiers": [
+    "http",
+    "browser",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser"
+   ],
+   "ms": {
+    "lite": 1518,
+    "crawl": 8597,
+    "pick": 13
+   },
+   "tokens": {
+    "L0": 696,
+    "L1": 11875,
+    "L2": 988
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What did Edvard Bull Sr., the Norwegian politician, die of in 1932?",
+   "gold": "Brain Tumor",
+   "results": 10,
+   "urls": [
+    "https://peoplepill.com/i/edvard-bull-sr/",
+    "https://encyclopedia2.thefreedictionary.com/Edvard+Hagerup+Bull",
+    "https://polsys.sikt.no/en/politicians/18020",
+    "https://commons.wikimedia.org/wiki/File:Det_kommunistiske_manifest.pdf",
+    "https://www.tandfonline.com/doi/abs/10.1080/14443050609388083",
+    "https://psycnet.apa.org/record/1933-01885-001",
+    "https://www.google.com/?gws_rd=ssl",
+    "https://no.wikisource.org/wiki/Fil:Edvard_Bull.jpg",
+    "https://academia-lab.com/enciclopedia/edvard-bull-sr/",
+    "https://nameberry.com/b/boy-baby-name-edvard"
+   ],
+   "tiers": [
+    "blocked",
+    "blocked",
+    "http",
+    "http",
+    "blocked",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1872,
+    "crawl": 6164,
+    "pick": 5
+   },
+   "tokens": {
+    "L0": 548,
+    "L1": 6180,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": true
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "The Jallianwala Bagh is recounted in which episode of Granada TV's 1984 series \"The Jewel in the Crown\"?",
+   "gold": "Seventh",
+   "results": 10,
+   "urls": [
+    "https://pdfcookie.com/documents/jallianwala-bagh-0nvo5kmoz3l8",
+    "https://ddd.uab.cat/pub/indialogs/indialogs_a2014v1/indialogs_a2014v1p38.pdf",
+    "https://en.wikipedia.org/wiki/The_Jewel_in_the_Crown_(TV_series)",
+    "https://www.nytimes.com/1984/12/09/arts/the-man-behind-many-of-those-british-gems.html",
+    "https://vkvideo.ru/video39955736_166161102",
+    "https://www.higgypop.com/news/inside-no-9-based-granada-studios-hauntings/",
+    "https://www.film.ru/a-z/serials/united_kingdom-romantic",
+    "https://yandex.ru/video/preview/11780659568324491208",
+    "https://www.youtube.com/watch?v=tMT2Z2QMdnM",
+    "https://ru.kinorium.com/name/313471/"
+   ],
+   "tiers": [
+    "blocked",
+    "blocked",
+    "http",
+    "browser",
+    "timeout",
+    "http",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 1620,
+    "crawl": 9024,
+    "pick": 8
+   },
+   "tokens": {
+    "L0": 613,
+    "L1": 10537,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "On what day, month, and year did Aaron Leo Brody, the 1964 Industrial Achievement Award winner by the Institute of Food Technologists, die?",
+   "gold": "July 26, 2021",
+   "results": 10,
+   "urls": [
+    "https://military-history.fandom.com/wiki/Aaron_L._Brody",
+    "https://www.sciencedirect.com/science/article/abs/pii/0022519364900384",
+    "https://www.youtube.com/watch?v=pHZ02vMeFBk",
+    "https://translate.google.com/",
+    "https://dayz.xam.nu/",
+    "https://www.imdb.com/list/ls009480135/",
+    "https://monkeytype.com/",
+    "https://reactive.fugi.tech/",
+    "https://translate.yandex.com/",
+    "https://discord.com/store"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "browser",
+    "browser",
+    "http",
+    "blocked",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1754,
+    "crawl": 8518,
+    "pick": 4
+   },
+   "tokens": {
+    "L0": 423,
+    "L1": 5746,
+    "L2": 819
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What were the month and year when the long-stalled trade agreement with South Korea came into effect in the U.S. Congress?",
+   "gold": "March 2012",
+   "results": 10,
+   "urls": [
+    "https://www.pnas.org/doi/epdf/10.1073/pnas.0702133104",
+    "https://ktla.com/news/local-news/16980/",
+    "https://translate.google.com/",
+    "https://web.whatsapp.com/",
+    "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+    "https://thetruesize.com/",
+    "https://www.nytimes.com/2019/08/02/business/economy/china-us-trade-threats.html",
+    "https://elvebredd.com/adopt-me-calculator",
+    "https://www.linkedin.com/pulse/ten-stories-moving-market-c-scott-garliss-zd5ue",
+    "https://www.forbes.com/sites/brianwingfield/2011/01/30/colombia-trade-agreement-gaining-momentum-in-washington/"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "browser",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1695,
+    "crawl": 8842,
+    "pick": 1
+   },
+   "tokens": {
+    "L0": 514,
+    "L1": 4010,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What were the first name, middle initial, and last name of the first resident scientist at The Metropolitan Museum of Art?",
+   "gold": "Arthur H. Kopp",
+   "results": 10,
+   "urls": [
+    "https://www.metmuseum.org/",
+    "https://yandex.com/maps/213/moscow/",
+    "https://www.englishskills.com/otchestvo-srednee-imja/",
+    "https://translate.google.com/",
+    "https://www.youtube.com/watch?v=TOMqxGzEowU",
+    "https://artsandculture.google.com/partner/the-metropolitan-museum-of-art",
+    "https://platform.deepseek.com/",
+    "https://app.pixverse.ai/",
+    "https://translate.yandex.com/",
+    "https://manus.im/app"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1865,
+    "crawl": 3417,
+    "pick": 0
+   },
+   "tokens": {
+    "L0": 497,
+    "L1": 2338,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In which month and year was Satyanarayan Gangaram Pitroda (an Indian telecommunication engineer and entrepreneur) appointed as advisor to Indian Prime Minister Manmohan Singh on Public Information Infrastructure and Innovations with the rank of Cabinet Minister?",
+   "gold": "October 2009",
+   "results": 10,
+   "urls": [
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://cabinet.hanmew.tech/",
+    "https://www.tandfonline.com/journals/ciej20",
+    "https://www.pmindia.gov.in/",
+    "https://www.youtube.com/watch?v=1msNwmc-apk",
+    "https://gemini.google.com/app?hl=ru",
+    "https://en.wikipedia.org/wiki/Manmohan_Singh",
+    "https://frosty-cabinet.com/",
+    "https://www.britannica.com/biography/Manmohan-Singh",
+    "https://translate.yandex.com/"
+   ],
+   "tiers": [
+    "blocked",
+    "blocked",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1696,
+    "crawl": 8795,
+    "pick": 15
+   },
+   "tokens": {
+    "L0": 346,
+    "L1": 20763,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the name of Track 4 on the Sonic Free Riders Original Soundtrack released in 2010?",
+   "gold": "\"Theme of Rocky Ridge\"",
+   "results": 10,
+   "urls": [
+    "https://www.amazon.com/SONIC-FREE-RIDERS-Original-Soundtrack/dp/B004D1UHRI",
+    "https://www.youtube.com/watch?v=tJjxKhjR9H4",
+    "https://genius.com/Crush-40-free-lyrics",
+    "https://sonic.fandom.com/wiki/Seven_Rings_In_Hand:_Sonic_and_the_Secret_Rings_Original_Sound_Track",
+    "https://smashcustommusic.net/game/78",
+    "https://cnvmp3.com/",
+    "https://www.shazam.com/de-de/song/518208284/free",
+    "https://quiverlauncher.com/apps/sonic-free-riders-free-riders-recompiled",
+    "https://downloads.khinsider.com/",
+    "https://info.sonicscanf.org/Sonic_Riders_Original_Soundtrack_%22Speedbeats_Grand_Prix%22"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "browser",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 2214,
+    "crawl": 2750,
+    "pick": 4
+   },
+   "tokens": {
+    "L0": 670,
+    "L1": 9319,
+    "L2": 829
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "Who was the first African American woman to patent a web-based EEO software (Nalikah, formerly known as LinkLine)?",
+   "gold": "Janet Emerson Bashen",
+   "results": 10,
+   "urls": [
+    "https://kids.kiddle.co/Janet_Emerson_Bashen",
+    "https://edheads.org/text/janet-rita-emerson-bashen-nee-emerson/",
+    "https://connectednation.org/blog/african-american-history-makers-in-technology-janet-emerson-bashen",
+    "https://www.linkedin.com/pulse/celebrating-influential-african-american-",
+    "https://bame-speakers.com/speaker/janet-bashen/",
+    "https://face2faceafrica.com/article/womens-history-month-meet-janet-emerson-bashen-first-black-woman-attain-patent-computer-software",
+    "https://www.facebook.com/DigitalOceanCloudHosting/posts/-make-a-developer-happy-in-3-words/4604857102972949/",
+    "https://www.pinterest.com/doribyrd/african-american-books/",
+    "https://www.youtube.com/shorts/FBKCEK4wU4I",
+    "https://www.bashencorp.com/"
+   ],
+   "tiers": [
+    "http",
+    "browser",
+    "http",
+    "http",
+    "http",
+    "http",
+    "timeout"
+   ],
+   "ms": {
+    "lite": 1932,
+    "crawl": 9040,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 483,
+    "L1": 4852,
+    "L2": 974
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "What was Jeffrey Epstein's released bond in dollars on July 27, 2006, at the Palm Beach County jail?",
+   "gold": "$3,000 bond",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+    "https://www.independent.co.uk/news/jeffrey-epstein-donald-trump-ghislaine-maxwell-pam-bondi-alexander-acosta-b2794882.html",
+    "https://www.cbsnews.com/newyork/news/timeline-of-the-life-and-crimes-of-jeffrey-epstein/",
+    "https://www.npr.org/2025/07/25/nx-s1-5478620/jeffrey-epstein-crimes-timeline-legal-case",
+    "https://www.nytimes.com/2019/07/13/nyregion/jeffrey-epstein-new-york-elite.html",
+    "https://www.palmbeachpost.com/story/news/2025/08/01/epstein-home-florida-ghislaine-maxwell/85472175007/",
+    "https://nypost.com/2016/10/09/the-sex-slave-scandal-that-exposed-pedophile-billionaire-jeffrey-epstein/",
+    "https://www.townandcountrymag.com/society/money-and-power/a28352055/jeffrey-epstein-criminal-case-facts/",
+    "https://www.bloomberg.com/features/2025-jes-staley-jeffrey-epstein-fca/",
+    "https://www.britannica.com/biography/Jeffrey-Epstein"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 2027,
+    "crawl": 3357,
+    "pick": 35
+   },
+   "tokens": {
+    "L0": 739,
+    "L1": 38420,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the forest cover area of Karnataka in square kilometers according to the India State of Forest Report 2019?",
+   "gold": "38,575.48",
+   "results": 10,
+   "urls": [
+    "https://www.downtoearth.org.in/forests/india-s-forest-cover-goes-up-by-nearly-3-this-decade-but-all-is-not-well-68624",
+    "https://huggingface.co/datasets/DKYoon/simpleqa_val_1k/viewer",
+    "https://testbook.com/question-answer/what-percentage-of-geographical-area-is-covered-by--6572dc828b8e37a5b8b80ef7",
+    "https://timesofindia.indiatimes.com/city/chandigarh/marginal-spike-in-haryana-forest-area-but-tree-cover-on-the-decline/articleshow/88886835.cms",
+    "https://ifgtbenvis.in/build/news/Mangrove%20cover%20increases%20by%202.6sqkm%20in%20Karnataka%20-%20Times%20of%20India.pdf",
+    "https://brainly.in/question/20102709",
+    "https://www.newindianexpress.com/india/2024/Dec/25/forest-cover-declines-in-haryana-punjab-tree-cover-shows-marginal-growth",
+    "https://www.google.com/maps/place/",
+    "https://indianexpress.com/article/explained/why-forest-fires-break-out-in-the-spring-and-why-they-have-been-so-frequent-this-year-7259057/334/",
+    "https://ourworldindata.org/forest-area"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "browser",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1622,
+    "crawl": 3969,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 664,
+    "L1": 9590,
+    "L2": 994
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the forest cover area of Sikkim in square kilometers according to the interpretation of IRS Resourcesat-2 LISS III satellite data from 2017?",
+   "gold": "3,342.49",
+   "results": 10,
+   "urls": [
+    "https://huggingface.co/datasets/shivank21/simpleqa_subset_mistral_ours/viewer",
+    "https://timesofindia.indiatimes.com/city/patna/state-forest-cover-up-by-6-99sq-km/articleshow/73036101.cms",
+    "https://fsi.nic.in/isfr19/vol2/isfr-2019-vol-ii-jharkhand.pdf",
+    "https://jicahpforestryproject.com/about/location/",
+    "https://data.globalforestwatch.org/",
+    "https://archive.org/stream/PARI.india-state-of-forest-report-2017/india-state-of-forest-report-2017_djvu.txt",
+    "https://brainly.in/question/49461468",
+    "https://www.sciencedirect.com/science/article/pii/0377042787901257",
+    "https://www.vedantu.com/question-answer/the-state-with-the-least-percentage-of-forest-class-9-social-science-cbse-5feaae5417b0716062594883",
+    "https://translate.google.com.tn/?hl=ru&tab=TT"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1870,
+    "crawl": 6505,
+    "pick": 15
+   },
+   "tokens": {
+    "L0": 551,
+    "L1": 26416,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the full name of the singer who sang the song 'Angels' with Robbie Williams at the opening ceremony of the 2018 FIFA World Cup?",
+   "gold": "Aida Emilevna Garifullina",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Angels_(Robbie_Williams_song)",
+    "https://www.songmeaningsandfacts.com/robbie-williams-angels-lyrics-meaning/",
+    "https://www.youtube.com/watch?v=pRpeEdMmmQ0",
+    "https://www.tiktok.com/discover/what-is-angels-robbie-williams-about",
+    "https://www.theguardian.com/football/2018/jun/14/robbie-williams-delivers-for-short-sharp-world-cup-opening-ceremony",
+    "https://genius.com/Robbie-williams-angels-lyrics",
+    "https://www.nme.com/news/music/robbie-williams-explains-meant-opening-middle-finger-gesture-world-cup-2341006",
+    "https://www.smoothradio.com/artists/robbie-williams/best-songs-ranked/",
+    "https://lyrsense.com/robbie_williams/angels_rw",
+    "https://hitmos.me/song/76785274"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1556,
+    "crawl": 7298,
+    "pick": 12
+   },
+   "tokens": {
+    "L0": 660,
+    "L1": 16190,
+    "L2": 863
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the name of the district with the Regional Transport Office (RTO) code SK-07 in Sikkim, India?",
+   "gold": "Pakyong",
+   "results": 10,
+   "urls": [
+    "https://vahanx.in/rto-office-details/sikkim/Sk-01",
+    "https://rtovehicledetails.com/searchrto/sikkim/gangtok",
+    "https://rto.whatsappzokes.com/",
+    "https://yandex.com/maps/213/moscow/",
+    "https://vahanin.com/rto/sikkim/sk-01/",
+    "https://www.google.com/?gws_rd=ssl",
+    "https://parivahan.gov.in/",
+    "https://www.policybazaar.com/rto/",
+    "https://vehicleinfo.app/",
+    "https://web.whatsapp.com/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1549,
+    "crawl": 2293,
+    "pick": 10
+   },
+   "tokens": {
+    "L0": 607,
+    "L1": 9502,
+    "L2": 951
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the surname of the recipient of the Nyholm Prize for Education in 1986-87?",
+   "gold": "Gardner",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Nyholm_Prize_for_Education",
+    "https://www.rsc.org/prizes-funding/prizes/find-a-prize/nyholm-prize-for-education/",
+    "https://huggingface.co/datasets/hamishivi/simple_qa_rlvr_no_prompt/viewer",
+    "https://edunovations.com/currentaffairs/awards_medals/savita-ladage-receives-explore-the-groundbreaking-contributions-of-prof-savita-ladage-in-chemistry-education-her-innovative-teaching-methods-and-the-global-impact-of-nyholm-prize-recognition/",
+    "https://vajiramandravi.com/current-affairs/nyholm-prize/",
+    "https://science.arizona.edu/news/university-arizona-chemistry-educator-vicente-talanquer-awarded-nyholm-prize-education-royal",
+    "https://mrbuji.com/en/current-affairs/recipient-nyholm-prize-education-royal-society-chemistry-savita-ladage",
+    "https://currentaffairs.adda247.com/prof-savita-ladage-honored-with-nyholm-prize-for-chemistry-education-excellence/",
+    "https://www.youtube.com/watch?v=WF1BDfhKExg",
+    "https://www.iasgyan.in/daily-current-affairs/nyholm-prize"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "timeout",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1750,
+    "crawl": 9013,
+    "pick": 10
+   },
+   "tokens": {
+    "L0": 685,
+    "L1": 11226,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "What year was the municipality of Santa Rosa de Osos, Antioquia, Colombia, founded?",
+   "gold": "1636",
+   "results": 10,
+   "urls": [
+    "https://kids.kiddle.co/Aragon,_Antioquia",
+    "https://123city.co/city/santa-rosa-de-osos",
+    "https://mapcarta.com/19707190",
+    "https://www.youtube.com/watch?v=6qd4vqHOTWI",
+    "https://en.wikipedia.org/wiki/Antioquia_Department",
+    "https://translate.google.com/",
+    "https://biblat.unam.mx/hevila/Colombiamedica/2011/no3/11.pdf",
+    "https://www.fotw.info/Flags/co-antsr.html",
+    "https://web.whatsapp.com/",
+    "https://www.tiktok.com/@conoce_colombia/video/7149554439563644166"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 1645,
+    "crawl": 3223,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 554,
+    "L1": 6568,
+    "L2": 971
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In August 2012, what was the address of the First Church of Christ, Scientist that W. V. Grant purchased?",
+   "gold": "1508 Cadiz Street, Dallas, TX, 75201",
+   "results": 10,
+   "urls": [
+    "https://www.science.org/doi/10.1126/science.adk5081",
+    "https://web.whatsapp.com/",
+    "https://translate.google.com/",
+    "https://parkmobile.io/parking/locations/ma/boston-parking/destination/first-church-of-christ-scientist",
+    "https://www.nomadotravel.app/en/attractions/first-church-of-christ-scientist",
+    "https://excel.cloud.microsoft/",
+    "https://en.wikipedia.org/wiki/Christian_Science",
+    "https://www.youtube.com/watch?v=FKkpH91gzPc",
+    "https://christiansciencedenton.com/events/wednesday-testimony-meeting-301/",
+    "https://journal.christianscience.com/issues/1904/1/21-10/mrs.-eddy-s-letter-to-first-church-of-christ-scientist-new-york-n.-y"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 1593,
+    "crawl": 7981,
+    "pick": 25
+   },
+   "tokens": {
+    "L0": 547,
+    "L1": 25374,
+    "L2": 955
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In which season and episode of South Park does Stan ask why dogs have cold noses?",
+   "gold": "Season 2 Episode 3: \"Ike's Wee Wee\"",
+   "results": 10,
+   "urls": [
+    "https://www.youtube.com/watch?v=dDVkNxCnwmA",
+    "https://www.tiktok.com/discover/what-episode-in-south-park-does-stan-and-wendy-kiss",
+    "https://www.southparkstudios.com/episodes/tr6pou/south-park-raisins-season-7-ep-14",
+    "https://southpark.fandom.com/wiki/Kyle_Broflovski",
+    "https://arxiv.org/html/2509.07968",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Recap/SouthParkS5E9OsamaBinLadenHasFartyPants",
+    "https://southpark.wiki.gg/wiki/South_Park",
+    "https://thetruesize.com/",
+    "https://en.wikipedia.org/wiki/South_Park",
+    "https://rufus.ie/"
+   ],
+   "tiers": [
+    "browser",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser"
+   ],
+   "ms": {
+    "lite": 1694,
+    "crawl": 5427,
+    "pick": 58
+   },
+   "tokens": {
+    "L0": 725,
+    "L1": 44824,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 2
+  },
+  {
+   "q": "In the primary setting of the Starfinder tabletop RPG, what is the home system of the Vesk species?",
+   "gold": "Ghavaniska system",
+   "results": 10,
+   "urls": [
+    "https://aonsrd.com/Races.aspx?ItemName=Vesk",
+    "https://d20-universal.fandom.com/wiki/VESK",
+    "https://huggingface.co/datasets/rediska0123/simpleqa_lmpoly",
+    "https://www.worldanvil.com/w/the-infosphere-nijoloblob/a/vesk-article",
+    "https://starfinderwiki.com/wiki/Veskarium",
+    "https://starfinder-galaxy.vercel.app/system/ghavaniska",
+    "https://www.youtube.com/watch?v=M0H3FWZPbnc",
+    "https://dailycharacteroption.tumblr.com/post/710476899661594624/races-among-the-stars-6-vesk",
+    "https://paizo.com/blog/welcome-to-the-veskarium",
+    "https://www.strangeassembly.com/2020/review-near-space-starfinder"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 1442,
+    "crawl": 6340,
+    "pick": 25
+   },
+   "tokens": {
+    "L0": 716,
+    "L1": 27544,
+    "L2": 900
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 2
+  },
+  {
+   "q": "Which mathematician received the Carl Friedrich Gauss Prize in 2006?",
+   "gold": "Kiyosi It\u00f4",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss_Prize",
+    "https://www.mathunion.org/fileadmin/IMU/Prizes/Gauss/GaussPrize2006-Ito.pdf",
+    "https://www.kyoto-u.ac.jp/en/about/honors/international-awards/gauss-prize",
+    "http://www.mat.uniroma3.it/scuola_orientamento/echi_stampa/archivio/2006/Perelman-IMU-press-06/IMU-22-8-06.pdf",
+    "https://web.archive.org/web/20081227210549/http://www.mathunion.org/general/prizes/gauss/details/",
+    "https://www.math.ucla.edu/sites/default/files/newsletter/nl2014.pdf",
+    "https://www.ams.org/notices/201011/rtx101101466p.pdf",
+    "https://nopr.niscpr.res.in/bitstream/123456789/31541/1/SR%2052%285%29%2037-39.pdf",
+    "https://peoplepill.com/i/kiyoshi-ito",
+    "https://allthatsinteresting.com/johann-carl-friedrich-gauss"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "http",
+    "blocked",
+    "http",
+    "blocked",
+    "browser",
+    "timeout"
+   ],
+   "ms": {
+    "lite": 1425,
+    "crawl": 9867,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 641,
+    "L1": 3359,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What day, month, and year was The Legend of Heroes: Zero no Kiseki original soundtrack released?",
+   "gold": "December 16, 2010",
+   "results": 10,
+   "urls": [
+    "https://downloads.khinsider.com/game-soundtracks/album/the-legend-of-heroes-zero-no-kiseki-original-soundtrack",
+    "https://kiseki.fandom.com/wiki/Zero_no_Kiseki_Original_Soundtrack",
+    "https://open.spotify.com/album/5z9kdVFnpUzwtkuibIXP4q",
+    "https://www.youtube.com/watch?v=zcI6TQx8Xi8",
+    "https://www.shazam.com/song/493236972/trinity",
+    "https://music.apple.com/in/song/beyond-a-thousand-nights/580050581",
+    "https://huggingface.co/datasets/hamishivi/SimpleQA-RLVR-noprompt/viewer/default/train?p=2",
+    "https://qwen.ai/",
+    "https://www.esterior.net/page/98/",
+    "https://songswave.com/world-music/album/3640374/The-Legend-Of-Heroes-Kai-No-Kiseki-Original-Soundtrack-Mini-Falcom-Sound-Team-Jdk/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "blocked",
+    "http",
+    "browser",
+    "http",
+    "browser",
+    "timeout"
+   ],
+   "ms": {
+    "lite": 1537,
+    "crawl": 9117,
+    "pick": 10
+   },
+   "tokens": {
+    "L0": 613,
+    "L1": 7295,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "According to \"The United Nations World Water Development Report 2022: Groundwater: Making the Invisible Visible,\" how many oases are documented in the Sahara and Arabian Oases Atlas?",
+   "gold": "774",
+   "results": 10,
+   "urls": [
+    "https://reliefweb.int/report/world/united-nations-world-water-development-report-2022-groundwater-making-invisible-visible",
+    "https://unhabitat.org/sites/default/files/2022/09/380721eng.pdf",
+    "https://nora.nerc.ac.uk/id/eprint/532315/",
+    "https://www.adaptation-undp.org/resources/reports/united-nations-world-water-development-report-2022-groundwater-making-invisible",
+    "https://eprints.gla.ac.uk/273482/1/273482.pdf",
+    "https://www.ars.usda.gov/research/publications/publication/?seqNo115=390214",
+    "https://www.researchgate.net/publication/374919947_Chapter_6_-_Groundwater_and_ecosystems_The_United_Nations_World_Water_Development_Report_2022_'Groundwater_Making_the_invisible_visible'_89-100_httpswwwunwaterorgpublicationsun-world-water-development",
+    "https://www.milanogreenforum.com/en/the-united-nations-world-water-development-report-2022-groundwater-making-the-invisible-visible/",
+    "https://climateadaptationplatform.com/better-groundwater-management-and-protection-needed/",
+    "https://edukemy.com/upsc-current-affairs/geography-current-affairs/goletz-terraces/2022-04-02"
+   ],
+   "tiers": [
+    "blocked",
+    "blocked",
+    "http",
+    "browser",
+    "timeout",
+    "http",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 2158,
+    "crawl": 9094,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 698,
+    "L1": 3397,
+    "L2": 893
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "As of 2022, what year did the Museum of Recent Art hold an exhibition named Thinking/Not Thinking?",
+   "gold": "2019",
+   "results": 10,
+   "urls": [
+    "https://www.nytimes.com/2022/02/17/arts/design/stonehenge-british-museum.html",
+    "https://translate.google.com/",
+    "https://monkeytype.com/",
+    "https://qwen.ai/",
+    "https://www.theguardian.com/artanddesign/2022/oct/28/mondrian-painting-has-been-hanging-upside-down-for-75-years",
+    "https://grok.com/",
+    "https://www.ilovepdf.com/jpg_to_pdf",
+    "https://hyperallergic.com/wildest-art-stories-of-2022/",
+    "https://character.ai/",
+    "https://www.youtube.com/watch?v=XFkzRNyygfk"
+   ],
+   "tiers": [
+    "browser",
+    "http",
+    "browser",
+    "http",
+    "blocked",
+    "browser",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1688,
+    "crawl": 6557,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 436,
+    "L1": 4172,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "From which date, month, and year to which date, month, and year did the Indian lawyer L. N. Sinha serve as Attorney General of India?",
+   "gold": "August 9, 1979 - August 8, 1983",
+   "results": 10,
+   "urls": [
+    "https://huggingface.co/datasets/akariasai/sampled_simpleqa",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://www.timeanddate.com/calendar/weekday-thursday-1",
+    "https://www.youtube.com/watch?v=NOAC2QpO6gY",
+    "https://web.whatsapp.com/",
+    "https://yandex.com/maps/",
+    "https://discord.com/store",
+    "https://www.mathsisfun.com/measure/months.html",
+    "https://www.perplexity.ai/",
+    "https://onedrive.live.com/login"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "timeout",
+    "http",
+    "blocked",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1412,
+    "crawl": 9039,
+    "pick": 4
+   },
+   "tokens": {
+    "L0": 405,
+    "L1": 5716,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "Undercover's first Paris runway show was named what?",
+   "gold": "Scab",
+   "results": 10,
+   "urls": [
+    "https://www.youtube.com/index",
+    "https://web.whatsapp.com/",
+    "https://app.runwayml.com/",
+    "https://www.tiktok.com/discover/paris-maziarska-runway",
+    "https://www.elle.com/runway/",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://ktla.com/news/local-news/16980/",
+    "https://openai.com/",
+    "https://www.midjourney.com/",
+    "https://www.chess.com/play"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser"
+   ],
+   "ms": {
+    "lite": 1727,
+    "crawl": 6326,
+    "pick": 1
+   },
+   "tokens": {
+    "L0": 392,
+    "L1": 1933,
+    "L2": 936
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "How many innings did Javier L\u00f3pez pitch in the '07 World Series?",
+   "gold": "zero",
+   "results": 10,
+   "urls": [
+    "https://www.baseball-almanac.com/recbooks/rb_rlief.shtml",
+    "https://www.statmuse.com/mlb/ask/how-many-innings-does-max-meyer-usually-pitch-per-game-on-ave",
+    "https://www.tiktok.com/discover/how-many-innings-did-the-worldseries-last",
+    "https://www.essentiallysports.com/mlb-baseball-news-how-many-innings-will-shohei-ohtani-pitch-in-blue-jays-vs-dodgers-game-seven-dave-roberts-reveals-clear-plan/",
+    "https://www.sfgate.com/giants/article/Giants-bullpen-ruins-Bumgarner-s-night-8342578.php",
+    "https://en.wikipedia.org/wiki/2022_World_Series",
+    "https://sports.yahoo.com/article/alcantara-pitches-7-strong-innings-211330462.html?bcmt=1",
+    "https://www.truebluela.com/2016/9/19/12984414/dodger-rally-giants-bullpen-madison-bumgarner-dominant-angry-sad",
+    "https://blogs.mercurynews.com/giants/2014/10/30/madison-bumgarner-just-history-just-watched-history/",
+    "https://www.youtube.com/watch?v=-kvY1Fj82OI"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "timeout"
+   ],
+   "ms": {
+    "lite": 1555,
+    "crawl": 9041,
+    "pick": 21
+   },
+   "tokens": {
+    "L0": 663,
+    "L1": 20717,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What surname of a mathematician is engraved on the Eiffel Tower at location NW06?",
+   "gold": "LAGRANGE",
+   "results": 10,
+   "urls": [
+    "https://kids.kiddle.co/Eiffel_Tower",
+    "https://www.youtube.com/watch?v=OOMx2BHHWtE",
+    "https://www.tiktok.com/discover/what-does-getting-eiffel-towered-mean",
+    "https://yandex.com/maps/213/moscow/",
+    "https://www.stiripesurse.ro/romanian-born-microbiologist-among-72-women-scientists-honored-on-eiffel-tower-frieze_3855150",
+    "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "https://web.whatsapp.com/",
+    "https://www.toureiffel.paris/en",
+    "https://translate.google.com/",
+    "https://www.studycountry.com/wiki/what-is-the-dirty-term-eiffel-tower"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1525,
+    "crawl": 5304,
+    "pick": 29
+   },
+   "tokens": {
+    "L0": 663,
+    "L1": 24509,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "On what day, month, and year was Cities: Skylines released for Google Stadia?",
+   "gold": "May 17, 2022",
+   "results": 10,
+   "urls": [
+    "https://www.google.com/?hl=ru_ru",
+    "https://store.steampowered.com/app/255710/Cities_Skylines/",
+    "https://www.fanatical.com/en/game/cities-skylines",
+    "https://www.youtube.com/watch?v=7Dyj711LnCM",
+    "https://www.eurogamer.net/cities-skylines-2-announced-and-launching-later-this-year",
+    "https://skylines.fandom.com/",
+    "https://play.geforcenow.com/",
+    "https://store.epicgames.com/?lang=en-US",
+    "https://www.newgamenetwork.com/news/10889/first-expansion-for-cities-skylines-released/",
+    "https://pixelport.gg/games/cities-skylines-2/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "http",
+    "blocked",
+    "browser",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 2997,
+    "crawl": 5813,
+    "pick": 1
+   },
+   "tokens": {
+    "L0": 539,
+    "L1": 2962,
+    "L2": 890
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the seat height in millimeters of the Honda CLR?",
+   "gold": "815",
+   "results": 10,
+   "urls": [
+    "https://powersports.honda.com/motorcycle/cruiser/rebel-500",
+    "https://www.youtube.com/watch?v=d6NseH-M9Ng",
+    "https://web.whatsapp.com/",
+    "https://discord.com/store",
+    "https://thetruesize.com/",
+    "https://www.bikewale.com/honda-bikes/sp-125/",
+    "https://translate.google.com/",
+    "https://voxalike.com/",
+    "https://epapervijayavani.in/",
+    "https://supremevalues.com/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 5578,
+    "crawl": 6737,
+    "pick": 8
+   },
+   "tokens": {
+    "L0": 528,
+    "L1": 10504,
+    "L2": 950
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What two colors was Jasmine Jolene's corpse's dress in the original BioShock from 2007?",
+   "gold": "white & black",
+   "results": 10,
+   "urls": [
+    "https://bioshock.fandom.com/wiki/Jasmine_Jolene",
+    "https://www.youtube.com/watch?v=APFdBrPTB1c",
+    "https://huggingface.co/datasets/II-Vietnam/inspect_simpleqa_qwen3_4b/viewer/default/train?p=41",
+    "https://www.pinterest.com/ideas/bioshock-jasmine-jolene-corpse-dress/893385280216/",
+    "https://www.offline-dice.com/",
+    "https://en.namu.wiki/w/%EC%9E%90%EC%8A%A4%EB%AF%BC%20%EC%A1%B8%EB%A6%B0",
+    "https://translate.google.com/",
+    "https://archiveofourown.org/tags/Elizabeth*s*Jack%20(Bioshock)/works",
+    "https://web.archive.org/web/20131231101753/http://www.laurazimmermann.com/?attachment_id=216",
+    "https://gamefaqs.gamespot.com/boards/931329-bioshock/46236303"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1675,
+    "crawl": 2390,
+    "pick": 17
+   },
+   "tokens": {
+    "L0": 614,
+    "L1": 13857,
+    "L2": 882
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 1
+  },
+  {
+   "q": "Who was Ra\u00fal Alfons\u00edn's first Minister of Education?",
+   "gold": "Carlos Alconada Aramburu",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Ra%C3%BAl_Alfons%C3%ADn",
+    "https://www.britannica.com/biography/Raul-Alfonsin",
+    "https://bliptext.com/articles/ra-l-alfons-n",
+    "https://claude.ai/",
+    "https://crisismagazine.com/opinion/argentina-mourns-an-honest-man",
+    "https://unlimitedhangout.com/how-argentinas-elon-musk-is-bringing-technocracy-to-patagonia/",
+    "https://www.nytimes.com/1985/12/15/magazine/alfonsin-s-one-man-show.html",
+    "https://www.worldatlas.com/articles/presidents-of-argentina-in-the-20th-and-21st-centuries.html",
+    "https://www.moi.gov.ae/en/home",
+    "https://thetruesize.com/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 1655,
+    "crawl": 4627,
+    "pick": 69
+   },
+   "tokens": {
+    "L0": 608,
+    "L1": 47786,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "What is the wheel diameter of the British Rail Class 92 in meters?",
+   "gold": "1.14 m",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/British_Rail_Class_92",
+    "https://www.steamlocomotives.org/locomotives/british-rail-class-92",
+    "https://www.youtube.com/watch?v=mVbL5JEqOsM",
+    "https://web.whatsapp.com/",
+    "https://www.wheel-size.com/",
+    "https://thetruesize.com/",
+    "https://www.nationalrail.co.uk/",
+    "https://www.wyzant.com/resources/answers/858052/a-ferris-wheel-is-40-meters-in-diameter-and-boarded-from-a-platform-that-is",
+    "https://www.cuemath.com/ncert-solutions/the-wheels-of-a-car-are-of-diameter-80-cm-each-how-many-complete-revolutions-does-each-wheel-make-in-10-minutes-when-the-car-is-travelling-at-a-speed-of-66-km-per-hour/",
+    "https://translate.google.com.tn/?hl=ru&tab=TT"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1672,
+    "crawl": 1793,
+    "pick": 6
+   },
+   "tokens": {
+    "L0": 599,
+    "L1": 10946,
+    "L2": 830
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In which year was the municipality of La Pintada, Antioquia, Colombia, founded?",
+   "gold": "1815",
+   "results": 10,
+   "urls": [
+    "https://huggingface.co/datasets/II-Vietnam/inspect_simpleqa_qwen3_4b/viewer",
+    "https://en.wikipedia.org/wiki/La_Pintada,_Antioquia",
+    "https://commons.wikimedia.org/wiki/Category:La_Pintada",
+    "https://www.puebliandoporantioquia.com.co/subregion-suroeste/municipio-la-pintada/",
+    "https://www.youtube.com/watch?v=QKisQnsAN84",
+    "https://www.researchgate.net/publication/323235286_Molecular_Typing_with_COI-DNA_Barcode_of_mosquitoes_with_medical_importance_from_rural_area_of_La_Pintada_Antioquia_Colombia",
+    "https://www.citypopulation.de/en/colombia/antioquia/la_pintada/05390000__la_pintada/",
+    "https://123city.co/city/la-pintada",
+    "https://www.wikiwand.com/en/Montebello,_Antioquia",
+    "https://es.wikipedia.org/wiki/La_Pintada_(Antioquia)"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1675,
+    "crawl": 4327,
+    "pick": 15
+   },
+   "tokens": {
+    "L0": 669,
+    "L1": 15362,
+    "L2": 888
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "In the last episode of the first season of Happy Valley, in what type of mechanized vehicle does Catherine find her grandson Ryan along with his father Tommy?",
+   "gold": "narrowboat",
+   "results": 10,
+   "urls": [
+    "https://community.mojeek.com/t/testing-relevancy/3035",
+    "https://happy-valley.fandom.com/wiki/Catherine_Cawood",
+    "https://en.wikipedia.org/wiki/Happy_Valley_(TV_series)",
+    "https://web.whatsapp.com/",
+    "https://www.youtube.com/watch?v=cSvT4i46wo4",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Series/HappyValley",
+    "https://www.independent.co.uk/arts-entertainment/tv/news/happy-valley-bbc-yorkshire-stew-b2267460.html",
+    "https://translate.yandex.com/",
+    "https://excel.cloud.microsoft/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1645,
+    "crawl": 3592,
+    "pick": 17
+   },
+   "tokens": {
+    "L0": 543,
+    "L1": 21551,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "Who is the credited conductor on the Super Mario Galaxy Original Soundtrack: Platinum Version?",
+   "gold": "Koji Haishima",
+   "results": 10,
+   "urls": [
+    "https://www.mariowiki.com/Super_Mario_Galaxy_Original_Soundtrack",
+    "https://www.tiktok.com/discover/mario-galaxy-soundtrack-spotify",
+    "https://mario.fandom.com/wiki/Koji_Kondo",
+    "https://www.youtube.com/watch?v=5Dv2psO9eqE",
+    "https://www.dcemu.co.uk/vbulletin/threads/94374-Super-Mario-Galaxy-Original-Soundtrack",
+    "https://www.albumoftheyear.org/album/1874304-mario-galaxy-orchestra-super-mario-galaxy-nintendo-switch-version.php",
+    "https://sonichits.com/artist/Mario_Galaxy_Orchestra",
+    "https://thetruesize.com/",
+    "https://www.google.com/?gws_rd=ssl",
+    "https://genius.com/Mario-galaxy-orchestra-help-lyrics"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "browser",
+    "blocked",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1670,
+    "crawl": 8267,
+    "pick": 6
+   },
+   "tokens": {
+    "L0": 550,
+    "L1": 10038,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What year was the municipality of Jard\u00edn, Antioquia, Colombia, founded?",
+   "gold": "1863",
+   "results": 10,
+   "urls": [
+    "https://www.tomplanmytrip.com/most-beautiful-small-towns-colombia/",
+    "https://www.google.com/maps/place/",
+    "https://www.youtube.com/watch?v=ygS9Z2Ifxso",
+    "https://huggingface.co/datasets/kshitijthakkar/smoltrace-results-20251030_131759/viewer/default/train?p=2",
+    "https://web.whatsapp.com/",
+    "https://wikitravel.org/en/Antioquia",
+    "https://www.dreameratheart.org/jardin-colombia-5-reasons-to-visit/",
+    "https://weather-and-climate.com/average-monthly-rainfall-temperature-sunshine,jardin-antioquia-co,Colombia",
+    "https://en.wikipedia.org/wiki/Antioquia_Department",
+    "https://remote-expeditions.com/fauna/jardin-antioquia-colombia/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1604,
+    "crawl": 3435,
+    "pick": 32
+   },
+   "tokens": {
+    "L0": 594,
+    "L1": 30431,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What year was the municipality of San Pedro de Urab\u00e1, Antioquia, Colombia, founded?",
+   "gold": "1956",
+   "results": 10,
+   "urls": [
+    "https://commons.wikimedia.org/wiki/Category:San_Pedro_de_Urab%C3%A1",
+    "https://en.wikipedia.org/wiki/San_Pedro_de_Urab%C3%A1",
+    "https://karmaka.de/?p=11732",
+    "https://123city.co/city/san-pedro-de-uraba",
+    "https://www.google.com/maps/place/",
+    "https://vexillology.fandom.com/wiki/Barbosa,_Antioquia",
+    "https://sanjuandeuraba-antioquia.gov.co/",
+    "https://www.tiktok.com/discover/uraba-antioquia-colombia",
+    "https://web.whatsapp.com/",
+    "https://pony.town/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1714,
+    "crawl": 2920,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 492,
+    "L1": 2687,
+    "L2": 956
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What two separate dates in 2018 did Ghana experience earthquakes of 3.3 magnitude on the Richter scale?",
+   "gold": "March 24 2018 and December 9 2018",
+   "results": 10,
+   "urls": [
+    "https://earthquake.usgs.gov/earthquakes/map/",
+    "https://www.graphic.com.gh/news/general-news/earth-tremor-in-ghana.html",
+    "https://earth3dmap.com/earthquake-live-map/",
+    "https://www.youtube.com/watch?v=6i7F9Z-pt8g",
+    "https://en.protothema.gr/2025/02/12/earthquakes-in-santorini-we-still-have-a-long-way-to-go-what-scientists-say-after-the-two-earthquakes-over-5-richter-in-the-evening/",
+    "https://www.emsc-csem.org/Earthquake_information/",
+    "https://massinitiative.org/how-much-stronger-than-magnitude-1-is-an-earthquake-with-a-magnitude-of-2/",
+    "https://earthquakelist.org/turkiye/",
+    "https://web.whatsapp.com/",
+    "https://qwen.ai/"
+   ],
+   "tiers": [
+    "browser",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "browser"
+   ],
+   "ms": {
+    "lite": 1868,
+    "crawl": 7310,
+    "pick": 10
+   },
+   "tokens": {
+    "L0": 528,
+    "L1": 7570,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": true
+   },
+   "rank": null
+  },
+  {
+   "q": "Who set the world record for the longest time spent in a snow globe in 2007?",
+   "gold": "Ben Eckerson",
+   "results": 10,
+   "urls": [
+    "https://www.guinnessworldrecords.com/news/2025/6/swiss-man-endures-freezing-temps-to-spend-longest-time-in-full-body-contact-with-snow",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://unofficialnetworks.com/2024/06/04/polish-man-breaks-record-for-longest-time-buried-in-snow-1-hour-45-minutes/",
+    "https://www.youtube.com/index",
+    "https://www.worldwideworldrecords.com/post/longest-time-to-rotate-in-360-degree-by-a-kid-achieved-by-v-tharun",
+    "https://www.perplexity.ai/",
+    "https://www.worldrecordacademy.com/society/longest_time_spent_in_hotels_David_and_Jean_Davidson_sets_world_record_90446.htm",
+    "https://app.joinhandshake.com/",
+    "https://www.virustotal.com/gui/home/upload",
+    "https://www.odditycentral.com/news/man-spends-almost-five-days-sitting-on-a-toilet-bowl-sets-world-record.html"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "blocked",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 6737,
+    "crawl": 6738,
+    "pick": 5
+   },
+   "tokens": {
+    "L0": 463,
+    "L1": 3831,
+    "L2": 814
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What month and year did a team of scientists publish a study of a skeleton found in Bragan\u00e7a, northeastern Portugal, of a man who died around 1000 AD and was discovered to have a 47,XXY karyotype?",
+   "gold": "August 2022",
+   "results": 10,
+   "urls": [
+    "https://www.smithsonianmag.com/smart-news/7000-year-old-skeletons-from-the-green-sahara-reveal-a-previously-unknown-human-lineage-180986403/",
+    "https://yandex.com/maps/213/moscow/",
+    "https://translate.google.com/",
+    "https://znaykauchit.ru/question/89897",
+    "https://elvebredd.com/adopt-me-calculator",
+    "https://translate.yandex.com/",
+    "https://www.youtube.com/index",
+    "https://www.sciencedirect.com/science/article/am/pii/S0963868717302196",
+    "https://www.pnas.org/doi/10.1073/pnas.2003631117",
+    "https://www.euroki.org/koza/lucas-s-special-hobby-luca-is-a-twelve-year-old-boy-he-loves-sports-and-playing-videogames-with-his-s"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "timeout",
+    "browser",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 2031,
+    "crawl": 9400,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 512,
+    "L1": 4420,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In Season 15, Episode 1 of Law & Order: Special Victims Unit, on what New York island did William Lewis hide Olivia?",
+   "gold": "Long Island",
+   "results": 10,
+   "urls": [
+    "https://lawandorder.fandom.com/wiki/Law_%26_Order:_Special_Victims_Unit",
+    "https://www.youtube.com/watch?v=QCG4QlCzr3g",
+    "https://www.tiktok.com/discover/law-and-order-special-victim-unit-s2-ep-7",
+    "https://monkeytype.com/",
+    "https://app.leonardo.ai/",
+    "https://thenkiri.ng/law-order-special-victims-unit-s28-tv-series/",
+    "https://excalidraw.com/",
+    "https://www.nbc.com/nbc-insider/kelli-giddish-why-svu-season-28-different-for-rollins",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://yandex.com/maps/213/moscow/"
+   ],
+   "tiers": [
+    "blocked",
+    "http",
+    "http",
+    "timeout",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 2119,
+    "crawl": 10469,
+    "pick": 1
+   },
+   "tokens": {
+    "L0": 484,
+    "L1": 2430,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "On what day, month, and year did Oommen Chandy, former Chief Minister of Kerala, die?",
+   "gold": "18 July 2023",
+   "results": 10,
+   "urls": [
+    "https://www.ndtv.com/india-news/i-have-a-family-life-thanks-to-him-ak-antony-remembers-oommen-chandy-4218112",
+    "https://www.livemint.com/news/india/oommen-chandy-dies-all-you-need-to-know-about-the-two-time-kerala-cm-11689646511822.html",
+    "https://www.thenewsminute.com/kerala/oommen-chandy-and-his-love-masses-people-puthuppally-and-more-179881",
+    "https://www.thestatesman.com/world/oommen-chandy-cause-of-death-1503201634.html",
+    "https://www.rediff.com/news/special/venu-rajamony-the-remarkable-life-and-legacy-of-oommen-chandy/20230722.htm",
+    "https://www.news18.com/politics/oommen-chandy-bids-adieu-to-thiruvananthapuram-his-remains-taken-to-kottayam-8371243.html",
+    "https://timesofindia.indiatimes.com/short-videos/news/oomen-chandy-passes-away-woman-mourns-remembers-how-he-helped-with-weddings-of-her-three-children/shorttakes/107174238.cms",
+    "https://www.moneycontrol.com/news/trends/current-affairs/oommen-chandy-first-love-letter-to-wife-what-he-wrote-10977961.html",
+    "https://www.firstpost.com/explainers/why-former-kerala-cm-oommen-chandy-will-be-laid-to-rest-with-no-state-honours-12889232.html",
+    "https://www.deccanchronicle.com/nation/in-other-news/210723/gods-own-country-pours-its-heart-out-to-oommen-chandy.html"
+   ],
+   "tiers": [
+    "http",
+    "browser",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1744,
+    "crawl": 6937,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 759,
+    "L1": 9282,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": true
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What patch reduced the amount of damage taken in Berserk Stance from 10% to 5% in World of Warcraft?",
+   "gold": "Patch 3.1.0",
+   "results": 10,
+   "urls": [
+    "https://wowpedia.fandom.com/wiki/Berserker_Stance",
+    "https://www.wowhead.com/classic/spell=2458/berserker-stance",
+    "https://www.icy-veins.com/wotlk-classic/protection-warrior-tank-pve-spell-summary",
+    "https://www.mmo-champion.com/threads/608817-Remove-the-10-more-damage-taken-on-Berserker-stance/page6",
+    "https://classicdb.ch/?spell=2458",
+    "https://www.youtube.com/watch?v=xE1gucDqNfo",
+    "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-1/2360696",
+    "https://thetruesize.com/",
+    "https://translate.google.com/",
+    "https://yandex.com/maps/213/moscow/"
+   ],
+   "tiers": [
+    "blocked",
+    "browser",
+    "http",
+    "blocked",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 7249,
+    "crawl": 3027,
+    "pick": 9
+   },
+   "tokens": {
+    "L0": 616,
+    "L1": 9016,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What year was Jun Takahashi's first women's runway show?",
+   "gold": "1994",
+   "results": 10,
+   "urls": [
+    "https://www.youtube.com/watch?v=4PppFg0-XvU",
+    "https://runway.com/product",
+    "https://www.nytimes.com/2025/04/22/t-magazine/japan-fashion-designers-yohji-yamamoto.html",
+    "https://flow.google.com/",
+    "https://theculturetrip.com/asia/japan/articles/top-10-japanese-fashion-designers-you-should-know",
+    "https://qwen.ai/",
+    "https://app.pixverse.ai/",
+    "https://app.leonardo.ai/",
+    "https://www.airbnb.com/",
+    "https://ukdevilz.com/watch/-208358547_456239316"
+   ],
+   "tiers": [
+    "http",
+    "browser",
+    "browser",
+    "blocked",
+    "browser",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1638,
+    "crawl": 6006,
+    "pick": 3
+   },
+   "tokens": {
+    "L0": 523,
+    "L1": 5160,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "In what month and year did the Society of Illustrators purchase 128 East 63rd Street, New York, NY?",
+   "gold": "August 1939",
+   "results": 10,
+   "urls": [
+    "https://societyillustrators.org/event/dream-walking-rudy-gutierrez-with-dk-dyson/",
+    "https://maps.google.com/",
+    "https://thetruesize.com/",
+    "https://enchantedlion.com/events/2025/10/draw-with-mari-kanstad-johnsen-bedtime-for-bo-at-the-society-of-illustrators11",
+    "https://facol.br/63rd-street-nyc-the-manhattan-shortcut-youre-probably-underestimating-16xl",
+    "https://amt.parsons.edu/illustration/liz-lomax-gives-lecture-at-society-of-illustrators/",
+    "https://gotstorycountdown.wordpress.com/2011/10/12/a-visit-with-zachariah-ohora/",
+    "https://web.whatsapp.com/",
+    "https://web.archive.org/web/20230530100745/https://societyillustrators.org/event/angelotorres/",
+    "https://www.nyartistsequity.org/exhibitions-events/talk-at-the-society-of-illustrators"
+   ],
+   "tiers": [
+    "http",
+    "timeout",
+    "http",
+    "browser",
+    "http",
+    "browser",
+    "browser",
+    "http"
+   ],
+   "ms": {
+    "lite": 2210,
+    "crawl": 9079,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 534,
+    "L1": 8850,
+    "L2": 984
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What was the name of the maid who committed suicide by setting herself on fire on May 21, 2007, because the former MLA Ashok Veer Vikram Singh exploited her physically, while his wife, a sitting MLA from Bijawar, used to beat her and keep her without salary?",
+   "gold": "Tijjibai",
+   "results": 10,
+   "urls": [
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://www.youtube.com/watch?v=zKdLg7PIXw0",
+    "https://translate.yandex.com/",
+    "https://monkeytype.com/",
+    "https://discord.com/store",
+    "https://character.ai/",
+    "https://www.euroki.org/koza/vstavte-propuschennye-slova-v-tekst-na-angliyskom-yazyke-a-zatem-predostavte-polnyy-perevod-teksta-s-",
+    "https://www.hermantheshocker.com/man-kills-two-women-and-commits-suicide/",
+    "https://quizlet.com/login",
+    "https://app.leonardo.ai/"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "blocked",
+    "http",
+    "http",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 1522,
+    "crawl": 6042,
+    "pick": 1
+   },
+   "tokens": {
+    "L0": 580,
+    "L1": 2707,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "On which game version was The International 2014 of Dota 2 played?",
+   "gold": "6.81b",
+   "results": 10,
+   "urls": [
+    "https://liquipedia.net/dota2/The_International",
+    "https://www.dota2.com/heroes",
+    "https://www.youtube.com/watch?v=er5YJPrN2VU",
+    "https://playerok.com/",
+    "https://www.techreviewer.co.uk/the-rise-of-dota-2/",
+    "https://www.esportsearnings.com/games/231-dota-2",
+    "https://voxalike.com/",
+    "https://wan.video/",
+    "https://dota2protracker.com/?ref=w3use",
+    "https://game-tournaments.com/dota-2/matches"
+   ],
+   "tiers": [
+    "blocked",
+    "browser",
+    "browser",
+    "http",
+    "http",
+    "http",
+    "browser",
+    "browser"
+   ],
+   "ms": {
+    "lite": 1640,
+    "crawl": 5932,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 566,
+    "L1": 5448,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What date, month, and year was TCG Yavuz (F240) commissioned?",
+   "gold": "17 July 1987",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/TCG_Yavuz_(F_240)",
+    "https://www.shipspotting.com/photos/783905",
+    "https://www.youtube.com/watch?v=rZlB6sbyps0",
+    "https://in.pinterest.com/pin/tcg-yavuz-f240--515240013599461302/",
+    "https://web.whatsapp.com/",
+    "https://www.beykozgundem.com/tcg-yavuz-istanbul-bogazinin-ilk-muze-gemisi-olmaya-hazirlaniyor",
+    "https://payhip.com/b/op9IU",
+    "https://www.google.com/",
+    "https://www.defencetalk.com/military/photos/f-240_tcg_yavuz.44205/",
+    "https://www.olay53.com/haber/tcg-yavuz-f-240-gemisi-rizeye-geliyor-703715.htm"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "browser",
+    "timeout",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1655,
+    "crawl": 9197,
+    "pick": 1
+   },
+   "tokens": {
+    "L0": 424,
+    "L1": 2564,
+    "L2": 877
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What month and year were the bodies of two children, Yuna and Minu Jo, found in suitcases in Auckland, New Zealand?",
+   "gold": "August 2022",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Murders_of_Yuna_and_Minu_Jo",
+    "https://www.rnz.co.nz/news/national/580041/suitcase-killings-mum-gets-life-sentence-for-murdering-children-hiding-bodies",
+    "https://www.1news.co.nz/2025/11/26/suitcase-killings-mother-to-be-sentenced-on-murder-charges-today/",
+    "https://www.abc.net.au/news/2025-09-19/hakyung-lee-suitcase-murders-auckland-new-zealand/105781562",
+    "https://www.theage.com.au/world/oceania/woman-who-murdered-children-and-left-them-in-suitcases-jailed-for-at-least-17-years-20251126-p5nir3.html",
+    "https://www.aljazeera.com/news/2025/9/23/new-zealand-woman-guilty-of-murdering-2-children-hiding-bodies-in-luggage?ref=upstract.com",
+    "https://www.bbc.co.uk/news/articles/c1wgqpx3q1go",
+    "https://www.rte.ie/news/world/2025/0923/1534830-hakyung-lee-new-zealand/",
+    "https://www.nine.com.au/world-news/new-zealand/why-did-she-take-innocent-children-hakyung-lee-sentenced-to-life-imprisonment-for-double-murders-20251126-p5nil6.html",
+    "https://www.bbc.com/news/articles/c1wgqpx3q1go"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1905,
+    "crawl": 2248,
+    "pick": 9
+   },
+   "tokens": {
+    "L0": 743,
+    "L1": 15283,
+    "L2": 900
+   },
+   "L0": {
+    "raw": true,
+    "judged": true
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": false,
+    "judged": true
+   },
+   "rank": 0
+  },
+  {
+   "q": "What was the name of the Venezuelan state in which Mar\u00eda Teresa Castillo was born in 1908?",
+   "gold": "Miranda.",
+   "results": 10,
+   "urls": [
+    "https://web.whatsapp.com/",
+    "https://en.wikipedia.org/wiki/List_of_Venezuelans",
+    "https://www.youtube.com/watch?v=8hyyK1opzyY",
+    "https://translate.google.com/",
+    "https://bulldrop.uz/",
+    "https://yandex.com/maps",
+    "https://hailuoai.video/",
+    "https://saveclip.app/",
+    "https://www.perplexity.ai/",
+    "https://outlook.office.com/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "browser",
+    "http",
+    "blocked",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1678,
+    "crawl": 6871,
+    "pick": 9
+   },
+   "tokens": {
+    "L0": 488,
+    "L1": 11233,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": 0
+  },
+  {
+   "q": "What was the name of Helmut Lang's solo exhibition in Vienna in 2017?",
+   "gold": "Various Conditions",
+   "results": 10,
+   "urls": [
+    "https://en.wikipedia.org/wiki/Helmut_Lang_(fashion_brand)",
+    "https://www.instagram.com/HELMUTLANG/",
+    "https://www.google.com/webhp",
+    "https://web.whatsapp.com/",
+    "https://www.retailmenot.com/view/helmutlang.com",
+    "https://yandex.com/maps/",
+    "https://mx.pinterest.com/pin/71424344086482320/",
+    "https://www.youtube.com/watch?v=EltgrumKJfk",
+    "https://www.lamoda.ru/b/27552/brand-helmutlang/",
+    "https://www.virustotal.com/gui/home/upload"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "blocked",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1815,
+    "crawl": 3939,
+    "pick": 2
+   },
+   "tokens": {
+    "L0": 413,
+    "L1": 5789,
+    "L2": 900
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What is the name (first and last) of the 11th President of the University of Northern Iowa?",
+   "gold": "Mark A. Nook",
+   "results": 10,
+   "urls": [
+    "https://uiowa.edu/",
+    "https://www.iastate.edu/",
+    "https://www.niu.edu/",
+    "https://www.whitehouse.gov/presidential-actions/",
+    "https://www.kwwl.com/news/top-stories/university-of-northern-iowas-our-tomorrow-campaign-raises-342-million/article_0213c5b8-46ed-4589-a441-d21c94672117.html",
+    "https://www.desmoinesregister.com/story/news/2016/10/28/nov-1-1991-day-university-shooting-rampage-shocked-iowa/92053548/",
+    "https://www.linkedin.com/posts/university-of-northern-iowa_the-university-of-northern-iowa-is-pleased-activity-7457449544495198209-YGfw",
+    "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States",
+    "https://www.youtube.com/watch?v=H42zWaD4A4s",
+    "https://translate.google.com/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked",
+    "http",
+    "http"
+   ],
+   "ms": {
+    "lite": 1714,
+    "crawl": 4025,
+    "pick": 7
+   },
+   "tokens": {
+    "L0": 624,
+    "L1": 11949,
+    "L2": 993
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 4
+  },
+  {
+   "q": "What is the cost of Full Moon Grass sold by Patches in Demon's Souls (2009)?",
+   "gold": "1000 souls",
+   "results": 10,
+   "urls": [
+    "https://www.youtube.com/watch?v=r2d2Dc_hd-w",
+    "https://demonssouls.wiki.fextralife.com/Dark+Moon+Grass",
+    "https://yandex.com/maps/213/moscow/",
+    "https://www.vintageisthenewold.com/faq/how-to-buy-full-moon-grass",
+    "https://www.playphrase.me/",
+    "https://translate.google.com.tn/?hl=ru&tab=TT",
+    "https://gamefaqs.gamespot.com/ps5/292818-demons-souls/faqs/78788/w5-1-depraved-chasm",
+    "https://www.airbnb.com/",
+    "https://psnprofiles.com/guide/11279-demons-souls-full-trophy-walkthrough",
+    "https://game8.co/games/demons-souls/archives/306522"
+   ],
+   "tiers": [
+    "http",
+    "blocked",
+    "blocked",
+    "http",
+    "timeout",
+    "blocked",
+    "http"
+   ],
+   "ms": {
+    "lite": 1732,
+    "crawl": 9024,
+    "pick": 4
+   },
+   "tokens": {
+    "L0": 549,
+    "L1": 6525,
+    "L2": 853
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": false,
+    "judged": false
+   },
+   "L2": {
+    "raw": false,
+    "judged": false
+   },
+   "rank": null
+  },
+  {
+   "q": "What formula is used for finding the inverse of a square matrix in Google Sheets?",
+   "gold": "MINVERSE",
+   "results": 10,
+   "urls": [
+    "https://www.excelmojo.com/mdeterm-in-google-sheets/",
+    "https://www.mathsisfun.com/algebra/matrix-inverse.html",
+    "https://www.emathhelp.net/calculators/linear-algebra/inverse-of-matrix-calculator/",
+    "https://www.geeksforgeeks.org/maths/determinant-of-3x3-matrix/",
+    "https://www.pinterest.com/pin/determinant-of-a-matrix--595390013232755659/",
+    "https://www.tiktok.com/discover/how-to-check-if-a-2-by-2-matrix-is-an-inverse",
+    "https://www.vedantu.com/ncert-solutions/ncert-solutions-class-12-maths-chapter-3-exercise-3-4",
+    "https://matrixcalc.org/",
+    "https://www.wolframalpha.com/calculators/matrix-inverse-calculator",
+    "https://colab.research.google.com/"
+   ],
+   "tiers": [
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "http",
+    "blocked"
+   ],
+   "ms": {
+    "lite": 1703,
+    "crawl": 3921,
+    "pick": 5
+   },
+   "tokens": {
+    "L0": 632,
+    "L1": 7880,
+    "L2": 974
+   },
+   "L0": {
+    "raw": false,
+    "judged": false
+   },
+   "L1": {
+    "raw": true,
+    "judged": true
+   },
+   "L2": {
+    "raw": true,
+    "judged": true
+   },
+   "rank": 0
+  }
+ ]
+}

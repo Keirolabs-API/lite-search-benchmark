@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="312" viewBox="0 0 760 312" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Answer found, 500 SimpleQA questions</title>
+<desc id="d">Lite results only: 59.4% (~550 tokens); Lite + crawl top 5: 84.6% (~13.8K tokens); Lite + crawl + BM25 pick: 73.4% (~900 tokens); Open recipe: crawl: 92.0% (~37K tokens); Open recipe: BM25 pick: 75.6% (~900 tokens)</desc>
+<rect width="760" height="312" fill="#ffffff"/>
+<text x="24" y="30" font-size="16" font-weight="700" fill="#101828">Answer found, 500 SimpleQA questions</text>
+<text x="24" y="48" font-size="12" fill="#667085">Judged: the gold answer appears in what that level returns, in any accepted form</text>
+<line x1="210.0" y1="54" x2="210.0" y2="282" stroke="#eaecf0" stroke-width="1"/>
+<text x="210.0" y="298" font-size="11" fill="#667085" text-anchor="middle">0%</text>
+<line x1="310.0" y1="54" x2="310.0" y2="282" stroke="#eaecf0" stroke-width="1"/>
+<text x="310.0" y="298" font-size="11" fill="#667085" text-anchor="middle">25%</text>
+<line x1="410.0" y1="54" x2="410.0" y2="282" stroke="#eaecf0" stroke-width="1"/>
+<text x="410.0" y="298" font-size="11" fill="#667085" text-anchor="middle">50%</text>
+<line x1="510.0" y1="54" x2="510.0" y2="282" stroke="#eaecf0" stroke-width="1"/>
+<text x="510.0" y="298" font-size="11" fill="#667085" text-anchor="middle">75%</text>
+<line x1="610.0" y1="54" x2="610.0" y2="282" stroke="#eaecf0" stroke-width="1"/>
+<text x="610.0" y="298" font-size="11" fill="#667085" text-anchor="middle">100%</text>
+<path d="M210,58 h233.6 a4,4 0 0 1 4,4 v22 a4,4 0 0 1 -4,4 h-233.6 z" fill="#8a94a6"/>
+<text x="198" y="77.0" font-size="13" fill="#475467" font-weight="400" text-anchor="end">Lite results only</text>
+<text x="455.6" y="77.0" font-size="13" font-weight="700" fill="#101828">59.4%</text>
+<text x="503.6" y="77.0" font-size="11" fill="#667085">~550 tokens</text>
+<path d="M210,102 h334.4 a4,4 0 0 1 4,4 v22 a4,4 0 0 1 -4,4 h-334.4 z" fill="#8a94a6"/>
+<text x="198" y="121.0" font-size="13" fill="#475467" font-weight="400" text-anchor="end">Lite + crawl top 5</text>
+<text x="556.4" y="121.0" font-size="13" font-weight="700" fill="#101828">84.6%</text>
+<text x="604.4" y="121.0" font-size="11" fill="#667085">~13.8K tokens</text>
+<path d="M210,146 h289.6 a4,4 0 0 1 4,4 v22 a4,4 0 0 1 -4,4 h-289.6 z" fill="#8a94a6"/>
+<text x="198" y="165.0" font-size="13" fill="#475467" font-weight="400" text-anchor="end">Lite + crawl + BM25 pick</text>
+<text x="511.6" y="165.0" font-size="13" font-weight="700" fill="#101828">73.4%</text>
+<text x="559.6" y="165.0" font-size="11" fill="#667085">~900 tokens</text>
+<path d="M210,190 h364.0 a4,4 0 0 1 4,4 v22 a4,4 0 0 1 -4,4 h-364.0 z" fill="#0e9f6e"/>
+<text x="198" y="209.0" font-size="13" fill="#101828" font-weight="700" text-anchor="end">Open recipe: crawl</text>
+<text x="586.0" y="209.0" font-size="13" font-weight="700" fill="#101828">92.0%</text>
+<text x="634.0" y="209.0" font-size="11" fill="#667085">~37K tokens</text>
+<path d="M210,234 h298.4 a4,4 0 0 1 4,4 v22 a4,4 0 0 1 -4,4 h-298.4 z" fill="#8a94a6"/>
+<text x="198" y="253.0" font-size="13" fill="#475467" font-weight="400" text-anchor="end">Open recipe: BM25 pick</text>
+<text x="520.4" y="253.0" font-size="13" font-weight="700" fill="#101828">75.6%</text>
+<text x="568.4" y="253.0" font-size="11" fill="#667085">~900 tokens</text>
+</svg>
